@@ -18,10 +18,10 @@ const HomePage = () => {
       <ProductsSection />
       <InstructionsSection />
       <FaqSection />
-      <TeamSection />
+      {/* <TeamSection /> */}
       <StatisticsSection />
       <TopServicesSection />
-      <ContactSection />
+      {/* <ContactSection /> */}
     </div>
   );
 };
