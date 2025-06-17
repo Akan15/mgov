@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.6a05ef86.css",
+    "main.js": "/static/js/main.7fd6c824.js",
+    "static/js/453.d7814da0.chunk.js": "/static/js/453.d7814da0.chunk.js",
+    "static/media/Instructuions.pdf": "/static/media/Instructuions.f9826da106edd39f706b.pdf",
+    "static/media/egov-m-logo-1.png": "/static/media/egov-m-logo-1.166fbcfbfa8b40cbbeeb.png",
+    "static/media/instagram-1-svgrepo-com.svg": "/static/media/instagram-1-svgrepo-com.a0a9a83448ddb5827d70493a84d37806.svg",
+    "static/media/mail-svgrepo-com.svg": "/static/media/mail-svgrepo-com.1d52316c0c2ffa17a045ea31ba13594e.svg",
+    "static/media/facebook-logo.svg": "/static/media/facebook-logo.bc0dc7c4f92b3359e1de845d0ad8c315.svg",
+    "static/media/telegram-svgrepo-com.svg": "/static/media/telegram-svgrepo-com.7b32e0699fa280a656aa08186d1e6bd5.svg",
+    "index.html": "/index.html",
+    "static/media/youtube-svgrepo-com.svg": "/static/media/youtube-svgrepo-com.cfff527d4e77cb8b6131fb1e1f445c15.svg",
+    "main.6a05ef86.css.map": "/static/css/main.6a05ef86.css.map",
+    "main.7fd6c824.js.map": "/static/js/main.7fd6c824.js.map",
+    "453.d7814da0.chunk.js.map": "/static/js/453.d7814da0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6a05ef86.css",
+    "static/js/main.7fd6c824.js"
+  ]
+}

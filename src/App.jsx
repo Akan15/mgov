@@ -6,6 +6,7 @@ import HomePage from './pages/HomePage';
 import NotFoundPage from './pages/NotFoundPage';
 import ScrollToTop from './components/common/ScrollToTop';
 import Footer from './components/common/Footer';
+import ScrollToSection from './components/common/ScrollToSection';
 import './App.css';
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
     <LanguageProvider>
       <Router>
         <ScrollToTop />
+        <ScrollToSection />
         <div className="App">
           <Header />
           <main>

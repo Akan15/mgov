@@ -72,6 +72,10 @@
   color: #666;
 }
 
+h2{
+  text-align: center;
+}
+
 /* Tablet styles */
 @media (max-width: 768px) {
   .faq-section {

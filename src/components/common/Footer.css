@@ -116,6 +116,19 @@
 .footer-bottom p {
   color: #a0a0a0;
   font-size: 0.9rem;
+  margin: 0.5rem 0;
+}
+
+.footer-bottom .contact-center {
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.footer-bottom .rights {
+  color: #a0a0a0;
+  font-size: 0.9rem;
 }
 
 @media (max-width: 768px) {
@@ -140,5 +153,19 @@
 
   .social-link {
     justify-content: center;
+  }
+
+  .footer-bottom .contact-center {
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer {
+    padding: 2rem 0 1rem;
+  }
+
+  .footer-bottom .contact-center {
+    font-size: 0.9rem;
   }
 } 

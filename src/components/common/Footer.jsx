@@ -25,19 +25,19 @@ const Footer = () => {
     {
       name: 'Telegram Channel',
       logo: telegramLogo,
-      url: 'https://t.me/egovkz',
+      url: 'https://t.me/+yTPUJitjI_w3NjFi?fbclid=IwY2xjawK45slleHRuA2FlbQIxMABicmlkETFWbFdBbEFsbkd0Q1d2dURWAR7UKzAonqObMjsqXVvf3rcF6xXKkrtaGLdm3_kfUlTXFft88MNX54QTofeQpg_aem_gCSbqru1p13Jca31hZCr_w',
       className: 'telegram'
     },
     {
       name: 'Instagram',
       logo: instagramLogo,
-      url: 'https://www.instagram.com/egovkz',
+      url: 'https://www.instagram.com/nitec_kz?igsh=ZXhhaWZtMnF1MHR5',
       className: 'instagram'
     },
     {
       name: 'Facebook',
       logo: facebookLogo,
-      url: 'https://www.facebook.com/egovkz',
+      url: 'https://www.facebook.com/nitec.kz',
       className: 'facebook'
     },
     {
@@ -80,7 +80,8 @@ const Footer = () => {
           </div>
         </div>
         <div className="footer-bottom">
-          <p>{t.footer.rights}</p>
+          <p className="contact-center">{t.footer.contactCenter}</p>
+          <p className="rights">{t.footer.rights}</p>
         </div>
       </div>
     </footer>

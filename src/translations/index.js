@@ -6,6 +6,7 @@ export const translations = {
     instructions: 'Инструкции',
     faq: 'FAQ',
     contact: 'Обратная связь',
+    topServices: 'Топ-услуги',
 
     // About Section
     aboutTitle: 'О проекте ИС МГОВ',
@@ -96,7 +97,8 @@ export const translations = {
       contactText: 'Следите за нашими обновлениями в социальных сетях и используйте Telegram-бот для получения государственных услуг.',
       telegramBot: 'Telegram-бот',
       telegramChannel: 'Telegram-канал',
-      rights: 'Все права защищены'
+      rights: 'Студенческий проект, июнь 2025',
+      contactCenter: 'Контакт-центр АО «НИТ»: +7 (7172) 701 999'
     },
 
     downloadMobileGuide: 'Скачать инструкцию eGov Mobile (PDF)',
@@ -132,7 +134,7 @@ export const translations = {
       },
       year2024: {
         title: 'Интеграция с ИИ-платформами',
-        description: 'Углубление интеграции с ИИ-платформами (НПИИ). Начало работы над визитной страницей ИС МГОВ и Telegram-инфраструктурой. После июля 2024 eGov Business расширил экосистему мобильного правительства, позволив юрлицам эффективно получать госуслуги с мобильных устройств.'
+        description: 'Углубление интеграции с ИИ-платформами (НПИ). Начало работы над визитной страницей ИС МГОВ и Telegram-инфраструктурой. После июля 2024 eGov Business расширил экосистему мобильного правительства, позволив юрлицам эффективно получать госуслуги с мобильных устройств.'
       },
       year2025: {
         title: 'Разработка новой визитной страницы',
@@ -144,6 +146,55 @@ export const translations = {
       title: 'Страница не найдена',
       message: 'Извините, запрашиваемая страница не существует.',
       homeButton: 'Вернуться на главную'
+    },
+
+    team: {
+      title: 'Команда MGOV',
+      departments: {
+        mgov: 'Департамент мобильного правительства'
+      },
+      positions: {
+        director: 'Директор',
+        projectManager: 'Проектный менеджер',
+        middleDeveloper: 'Мидл разработчик',
+        seniorAnalyst: 'Старший аналитик',
+        developer: 'Разработчик',
+        seniorIOSDeveloper: 'Старший IOS разработчик',
+        seniorAndroidDeveloper: 'Старший Android разработчик',
+        analyst: 'Аналитик',
+        manager: 'Менеджер',
+        seniorDesigner: 'Старший UI/UX дизайнер',
+        middleAnalyst: 'Мидл аналитик',
+        seniorManager: 'Старший менеджер',
+        middleIOSDeveloper: 'Мидл IOS разработчик',
+        qaEngineer: 'QA инженер'
+      }
+    },
+
+    statistics: {
+      title: 'Статистика',
+      description: 'Департамент «Мобильное правительство» активно внедряет цифровые решения для упрощения доступа граждан и бизнеса к государственным услугам. Ниже приведены ключевые показатели за 2025 год:',
+      egovMobileUsers: 'Пользователи приложения eGov Mobile',
+      egovBusinessUsers: 'Пользователи eGov Business',
+      notificationsSent: 'Отправлено уведомлений через систему',
+      bmcRequests: 'Обработано запросов через БМГ (базу мобильных граждан)',
+      smsMessages: 'Обработано сообщений через СМС-шлюз',
+      digitalDocs: 'Выдано цифровых документов',
+      govServices: 'Оказано государственных услуг через мобильные платформы',
+      surveys: 'Проведено пользовательских опросов',
+      conclusion: 'Эти данные подтверждают эффективность решений, реализуемых департаментом «Мобильное правительство», а также высокий уровень цифровизации взаимодействия государства с населением.'
+    },
+
+    topServices: {
+      title: 'ТОП-услуги недели',
+      description: 'Самые популярные и востребованные услуги на портале eGov Mobile',
+      goToService: 'Перейти к услуге',
+      services: {
+        criminalRecord: 'Справка о несудимости',
+        registerLLP: 'Регистрация ТОО',
+        digitalID: 'Получение цифрового удостоверения',
+        taxPayment: 'Оплата налогов'
+      }
     }
   },
   kk: {
@@ -243,7 +294,8 @@ export const translations = {
       contactText: 'Әлеуметтік желілерде жаңартуларды қадағалаңыз және мемлекеттік қызметтерді алу үшін Telegram-ботты пайдаланыңыз.',
       telegramBot: 'Telegram-бот',
       telegramChannel: 'Telegram-канал',
-      rights: 'Барлық құқықтар қорғалған'
+      rights: 'Студенттік жоба, маусым 2025',
+      contactCenter: '«НИТ» АҚ хабарласу орталығы: +7 (7172) 701 999'
     },
 
     downloadMobileGuide: 'eGov Mobile нұсқаулығын жүктеу (PDF)',
@@ -291,6 +343,55 @@ export const translations = {
       title: 'Бет табылмады',
       message: 'Кешіріңіз, сұралған бет жоқ.',
       homeButton: 'Басты бетке оралу'
+    },
+
+    team: {
+      title: 'MGOV Тобы',
+      departments: {
+        mgov: 'Мобильді үкімет департаменті'
+      },
+      positions: {
+        director: 'Директор',
+        projectManager: 'Жоба менеджері',
+        middleDeveloper: 'Мидл әзірлеуші',
+        seniorAnalyst: 'Аға аналитик',
+        developer: 'Әзірлеуші',
+        seniorIOSDeveloper: 'Аға IOS әзірлеуші',
+        seniorAndroidDeveloper: 'Аға Android әзірлеуші',
+        analyst: 'Аналитик',
+        manager: 'Менеджер',
+        seniorDesigner: 'Аға UI/UX дизайнер',
+        middleAnalyst: 'Мидл аналитик',
+        seniorManager: 'Аға менеджер',
+        middleIOSDeveloper: 'Мидл IOS әзірлеуші',
+        qaEngineer: 'QA инженер'
+      }
+    },
+
+    statistics: {
+      title: 'Статистика',
+      description: '«Мобильді үкімет» департаменті азаматтар мен бизнес үшін мемлекеттік қызметтерге қол жеткізуді жеңілдетуге арналған сандық шешімдерді белсенді түрде енгізуде. Төменде 2025 жылғы негізгі көрсеткіштер келтірілген:',
+      egovMobileUsers: 'eGov Mobile қосымшасының пайдаланушылары',
+      egovBusinessUsers: 'eGov Business пайдаланушылары',
+      notificationsSent: 'Жүйе арқылы жіберілген хабарламалар',
+      bmcRequests: 'БМГ (мобильді азаматтар базасы) арқылы өңделген сұраныстар',
+      smsMessages: 'СМШ-шлюз арқылы өңделген хабарламалар',
+      digitalDocs: 'Берілген сандық құжаттар',
+      govServices: 'Мобильді платформалар арқылы көрсетілген мемлекеттік қызметтер',
+      surveys: 'Өткізілген пайдаланушылар сауалнамалары',
+      conclusion: 'Бұл деректер «Мобильді үкімет» департаменті жүзеге асыратын шешімдердің тиімділігін, сондай-ақ мемлекет пен халықтың өзара әрекеттестігінің сандықтандыру деңгейінің жоғары екенін растайды.'
+    },
+
+    topServices: {
+      title: 'Аптаның ТОП-қызметтері',
+      description: 'eGov Mobile порталындағы ең танымал және сұранысқа ие қызметтер',
+      goToService: 'Қызметке өту',
+      services: {
+        criminalRecord: 'Теріс қылмыстық тіркеу туралы анықтама',
+        registerLLP: 'ЖШС тіркеу',
+        digitalID: 'Сандық куәлік алу',
+        taxPayment: 'Салық төлеу'
+      }
     }
   },
   en: {
@@ -390,7 +491,8 @@ export const translations = {
       contactText: 'Follow our updates on social networks and use the Telegram bot to receive government services.',
       telegramBot: 'Telegram Bot',
       telegramChannel: 'Telegram Channel',
-      rights: 'All rights reserved'
+      rights: 'Student Project, June 2025',
+      contactCenter: 'NIT JSC Contact Center: +7 (7172) 701 999'
     },
 
     downloadMobileGuide: 'Download eGov Mobile Guide (PDF)',
@@ -438,6 +540,55 @@ export const translations = {
       title: 'Page Not Found',
       message: 'Sorry, the requested page does not exist.',
       homeButton: 'Return to Home'
+    },
+
+    team: {
+      title: 'MGOV Team',
+      departments: {
+        mgov: 'Mobile Government Department'
+      },
+      positions: {
+        director: 'Director',
+        projectManager: 'Project Manager',
+        middleDeveloper: 'Middle Developer',
+        seniorAnalyst: 'Senior Analyst',
+        developer: 'Developer',
+        seniorIOSDeveloper: 'Senior IOS Developer',
+        seniorAndroidDeveloper: 'Senior Android Developer',
+        analyst: 'Analyst',
+        manager: 'Manager',
+        seniorDesigner: 'Senior UI/UX Designer',
+        middleAnalyst: 'Middle Analyst',
+        seniorManager: 'Senior Manager',
+        middleIOSDeveloper: 'Middle IOS Developer',
+        qaEngineer: 'QA Engineer'
+      }
+    },
+
+    statistics: {
+      title: 'Statistics',
+      description: 'The Mobile Government Department actively implements digital solutions to simplify access to government services for citizens and businesses. Below are the key indicators for 2025:',
+      egovMobileUsers: 'eGov Mobile App Users',
+      egovBusinessUsers: 'eGov Business Users',
+      notificationsSent: 'Notifications Sent Through the System',
+      bmcRequests: 'Requests Processed Through BMC (Base of Mobile Citizens)',
+      smsMessages: 'Messages Processed Through SMS Gateway',
+      digitalDocs: 'Digital Documents Issued',
+      govServices: 'Government Services Provided Through Mobile Platforms',
+      surveys: 'User Surveys Conducted',
+      conclusion: 'These data confirm the effectiveness of solutions implemented by the Mobile Government Department, as well as the high level of digitalization in government-citizen interaction.'
+    },
+
+    topServices: {
+      title: 'Top Services of the Week',
+      description: 'Most popular and in-demand services on the eGov Mobile portal',
+      goToService: 'Go to Service',
+      services: {
+        criminalRecord: 'Criminal Record Certificate',
+        registerLLP: 'LLP Registration',
+        digitalID: 'Digital ID',
+        taxPayment: 'Tax Payment'
+      }
     }
   },
 }; 

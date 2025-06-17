@@ -1,11 +1,21 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useLanguage } from '../../context/LanguageContext';
 import { translations } from '../../translations';
+import { submitFeedback } from '../../services/feedbackService';
 import './ContactSection.css';
 
 const ContactSection = () => {
   const { language } = useLanguage();
   const t = translations[language];
+
+  // Test function
+  const testClick = () => {
+    alert('Test button clicked!');
+  };
+
+  useEffect(() => {
+    alert('ContactSection loaded!');
+  }, []);
 
   const [formData, setFormData] = useState({
     name: '',
@@ -47,8 +57,10 @@ const ContactSection = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    alert('Form submitted!');
     
     if (!validateForm()) {
+      alert('Form validation failed');
       return;
     }
 
@@ -56,11 +68,13 @@ const ContactSection = () => {
     setSubmitStatus(null);
 
     try {
-      // Here you would typically make an API call
-      await new Promise(resolve => setTimeout(resolve, 1000)); // Simulated API call
+      alert('Attempting to submit feedback...');
+      const response = await submitFeedback(formData);
+      alert('Feedback submitted successfully!');
       setSubmitStatus('success');
       setFormData({ name: '', phone: '', iin: '', message: '' });
     } catch (error) {
+      alert('Error submitting feedback: ' + error.message);
       setSubmitStatus('error');
     } finally {
       setIsSubmitting(false);
@@ -80,6 +94,11 @@ const ContactSection = () => {
       <div className="container">
         <h2>{t.contactTitle}</h2>
         <p className="section-subtitle">{t.contactSubtitle}</p>
+
+        {/* Test button */}
+        <button onClick={testClick} style={{ marginBottom: '20px' }}>
+          Test Button
+        </button>
 
         <form onSubmit={handleSubmit} className="contact-form">
           <div className="form-group">

@@ -4,7 +4,7 @@ import { translations } from '../translations';
 const LanguageContext = createContext();
 
 export const LanguageProvider = ({ children }) => {
-  const [language, setLanguage] = useState('ru'); // Default language is Russian
+  const [language, setLanguage] = useState('ru');
 
   const changeLanguage = (newLanguage) => {
     setLanguage(newLanguage);
